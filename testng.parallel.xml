@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Dell/Downloads/testNG/testNG/src/test/java/testNG/parallel">
+        <classes>
+            <class name="testNG.parallel.Paralled1">
+                <methods>
+                    <include name="checkbox"/>
+                </methods>
+            </class>
+            <class name="testNG.parallel.Parallel2">
+                <methods>
+                    <include name="reSizeable"/>
+                </methods>
+            </class>
+            <class name="testNG.parallel.Parallel3">
+                <methods>
+                    <include name="alertPopUp"/>
+                </methods>
+            </class>
+            <class name="testNG.parallel.Parallel4">
+                <methods>
+                    <include name="mouseHover"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

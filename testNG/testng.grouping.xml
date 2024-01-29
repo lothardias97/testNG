@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grouping Test">
+    <test verbose="2" preserve-order="true" name="C:/Users/LENOVO/AutomationTest/testNG/src/test/java/testNG/Grouping/Grouping.java">
+       <groups>
+           <run>
+               <include name="Let'sKodeIt--1"></include>
+           </run>
+       </groups>
+        <classes>
+            <class name="testNG.Grouping.Grouping"></class>
+        </classes>
+    </test>
+</suite>
+
